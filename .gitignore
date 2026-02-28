@@ -10,4 +10,4 @@ wheels/
 .venv
 .idea/
 .DS_Store/
-src/data/
+src/data/*

@@ -4,6 +4,12 @@ version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.12"
 dependencies = [
+    "asyncio>=4.0.0",
+    "fake-useragent>=2.2.0",
+    "httpx>=0.28.1",
+    "loguru>=0.7.3",
     "pre-commit>=4.5.1",
     "ruff>=0.15.4",
+    "selectolax>=0.4.6",
 ]
+

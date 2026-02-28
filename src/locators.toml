@@ -1,0 +1,8 @@
+[card_locators]
+card_locator = "article"
+
+
+[item_locators]
+item1_locator = "h3 a"
+item2_locator = ".price_color"
+item3_locator = "p"

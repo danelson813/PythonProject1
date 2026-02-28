@@ -1,13 +1,30 @@
-# Python-generated files
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+*.py[cod]
+*$py.class
 
-# Virtual environments
-.venv
+# Virtual Environments (uv, venv, virtualenv, conda)
+.venv/
+venv/
+env/
+
+# Environment variables (Never commit your secrets!)
+.env
+.env.local
+.env.*
+
+# IDEs and Editors (VS Code, PyCharm, etc.)
+.vscode/
 .idea/
-.DS_Store/
-src/data/*
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Testing and Coverage
+.pytest_cache/
+htmlcov/
+.coverage
+
+src/data/

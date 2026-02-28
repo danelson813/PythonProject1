@@ -30,7 +30,7 @@ async def fetch_html(url: str, client: httpx.AsyncClient):
             await asyncio.sleep(1)
 
 
-def parse_html(html, timeout: int = 30):
+def parse_html(html):
     locators = load_locators("locators.toml")
     tree = LexborHTMLParser(html)
     cards = tree.css(locators.card_locators.card_locator)
